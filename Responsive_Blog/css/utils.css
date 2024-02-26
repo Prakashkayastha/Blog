@@ -1,0 +1,55 @@
+@import url("https://fonts.googleapis.com/css2?family=Balthazar&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Balthazar&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+:root {
+  --main-bg-color: brown;
+  --font1: "Balthazar", serif;
+  --font2: "Roboto", sans-serif;
+  --font3: "Rubik", sans-serif;
+}
+.font1{
+    font-family:var(--font1);
+}
+.font2{
+    font-family:var(--font2);
+}
+.font3{
+  font-family:var(--font3);
+}
+.max-width-1 {
+  max-width: 80vw;
+}
+.max-width-2 {
+  max-width: 60vw;
+}
+.m-auto {
+  margin: auto;
+}
+.btn {
+    padding:9px 9px;
+    border-radius:4px;
+    border:1px solid black;
+    /* background:rgb(86, 86, 195); */
+    /* color:white; */
+    /* font-weight:bold; */
+    cursor:pointer;
+    transition: all 0.25s ease-in-out;
+}
+.btn:hover{
+    color:white;
+    background-color:rgb(100, 100, 171);
+    border:none;
+    font-weight:bold;
+}
+.form-input{
+    padding:8px 15px;
+    margin:0 13px;
+    border:1px solid black;
+    border-radius:4px;
+    font-family:var(--font2);
+    outline:none;
+}
+.form-input:hover{
+  border:2px solid rgb(91, 91, 209);
+  background:rgb(238, 233, 233);
+}
